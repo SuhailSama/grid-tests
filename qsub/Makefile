@@ -7,7 +7,7 @@
 # login_shells is set to sh,bash,ksh,csh,tcsh.  To see the current list run
 # "qconf -sconf" and see the login_shells entry there.
 
-queue ?= bme.q
+queue ?= hyness.q
 
 all: bash sh csh default zsh
 	qstat
