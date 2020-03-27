@@ -14,7 +14,7 @@
 # The Python script here uses matplotlib to graph some arbitrary data in 3D and
 # and saves it to an SVG file.  Enter "display contour.svg" to view the plot.
 
-queue ?= bme.q
+queue ?= hyness.q
 
 all: python-anaconda-direct
 	qstat
